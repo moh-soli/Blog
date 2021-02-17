@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blog</title>
+    <title>Mo Soliman - Web Developer</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e0045a5e70.js" crossorigin="anonymous"></script>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +13,16 @@
   </head>
 
   <body>
+   <header id="mainnav" class="clearfix">
+      <a href="#" class="name">Mohamed Soliman</a>
+      <nav>
+        <%= link_to "Articles", posts_path %>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+  </header>
+
+
     <%= yield %>
   </body>
 </html>
