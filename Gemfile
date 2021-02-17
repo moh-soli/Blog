@@ -55,3 +55,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Gemfile
 gem 'simple_form'
+
+#highlights
+gem 'redcarpet', '~> 3.5', '>= 3.5.1'
+gem 'pygments.rb', '~> 2.0'
